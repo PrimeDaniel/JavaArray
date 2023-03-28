@@ -24,7 +24,7 @@ public class ThreadCheckArray implements Runnable
 			if (sd.getFlag())
 				return;
 		}	
-		if (n == 1)
+		if (n == 2)
 		{
 			if(b == 0 || b == array[n-1])
 			{
